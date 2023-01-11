@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+nav {
+    background-color: rgb(70, 180, 160);
+    padding: 10px;
+}
+a {
+    color: white;
+    margin: 40px;
+    line-height: 1.5em;
+}
+h1, h2 {
+    color: rgb(70, 180, 160);
+}
+img {
+    width: 800px;
+    border: 4px solid rgb(70, 180, 160);
+}
+p {
+    padding: 10px;
+}
+#active {
+    background-color: white;
+    color: rgb(70, 180, 160);
+}
