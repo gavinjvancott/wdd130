@@ -5,9 +5,9 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Roboto:wght@300&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #17adec   ;
-  --secondary-color: #4fb477 ;
-  --accent1-color: #3a5e31;
+  --primary-color: #a8cbdb   ;
+  --secondary-color: #83bb7c ;
+  --accent1-color: #4e6c46;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
