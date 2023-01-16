@@ -5,22 +5,26 @@ nav, footer {
     padding: 10px;
 }
 a {
+    padding: 10px;
     font-size: 1em;
     color: white;
     margin: 40px;
     line-height: 1.5em;
 }
 h1 {
+    margin: 50px 0;
     text-align: center;
     color: rgb(70, 180, 160);
 }
 img {
-    margin: 0 auto;
+    padding: 25px;
+    margin: 50px auto;
     display: block;
     width: 40%;
     border: 4px solid rgb(70, 180, 160);
 }
 p {
+    margin: 30px auto;
     text-align: center;
     padding: 10px;
 }
@@ -31,4 +35,13 @@ p {
 a:hover {
     background-color:white;
     color: rgb(70, 180, 160);
+}
+footer p {
+    padding: 25px;
+    color: white;
+    font: size 20px;
+    margin: 20px auto;
+}
+body {
+    margin: 0;
 }

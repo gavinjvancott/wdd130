@@ -77,7 +77,10 @@ footer a:hover {
     width: 100%;
 }
 footer p {
-    font-size: 1.3em;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    margin: 20px auto;
 }
 footer p a:hover {
     text-decoration: underline;
