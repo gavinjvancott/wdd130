@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Roboto:wght@300&display=swap');
 #content {
     margin: 0 auto;
     max-width: 1600px;
 }
 nav a {
+    padding: 35px;
     text-decoration: none;
     color:#a8cbdb ;
     text-align: center;
@@ -20,7 +22,11 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Roboto, Oxygen, sans-serif;
+    background-color: #929090;
 }
 header {
     background-color: #4e6c46;
@@ -30,37 +36,51 @@ nav a:hover {
     background-color: #4e6c46;
 }
 .book, .join {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
     text-decoration: none;
     color: #a8cbdb;
-    background-color: #4e6c46;
+    background-color: white;
 }
 .book:hover, .join:hover {
     color: #a8cbdb;
-    background-color: #4e6c46;
+    background-color:#4e6c46;
 }
 #background {
     background-color: #4e6c46;
 }
 .msg {
+    padding: 35px;
+    line-height: 1.5em;
     background-color: #4e6c46;
 }
 footer {
+    padding: 25px 50px;
     color: #a8cbdb;
     background-color: #4e6c46;
 }
 .home-title {
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: 'Nothing You Could Do', brush script m7, papyrus;
     color: #a8cbdb;
 }
 h4 {
     color: #a8cbdb;
 }
 .msg h2 {
+    font-family: Nothing You Could Do, brush script m7, papyrus;
     color: #a8cbdb;
 }
 .msg p {
+    padding-bottom: 15px;
+    font-size: .8em;
     color: #a8cbdb;
 }
 footer a {
+    margin-top: 200px;
     text-decoration: none;
 color: #a8cbdb;
 }
@@ -71,6 +91,7 @@ footer a:hover {
     width: 80px;
 }
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 #hero-img {
@@ -84,4 +105,22 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #a8cbdb;
+}
+main section img {
+    box-sizing: border-box;
 }
