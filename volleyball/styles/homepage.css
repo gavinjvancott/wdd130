@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Roboto:wght@300&display=swap');
+#hero-img {
+    width: 100%;
+    margin-top: -120px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Roboto, Oxygen, sans-serif;
+    background-color: #8cb4b3;
+    text-align: center;
+}
+nav a:hover {
+    color: #8cb4b3;
+    background-color: #f8e109;
+}
+nav a {
+    padding: 50px;
+    margin: auto;
+    text-decoration: none; 
+    color:#f8e109 ;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #aaaaa0d5 ;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+}
+.logo {
+    height: 200px;
+    width: 200px;
+    margin-left: 75px;
+}
+.home-title {
+    margin-top: 10px;
+    font-size: 4em;
+    font-family: 'Nothing You Could Do', brush script m7, papyrus;
+    color:#f8e109 ;
+}
+h3 {
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: 'Nothing You Could Do', brush script m7, papyrus;
+    color:#f8e109 ; 
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 2%;
+}
+.basics p, .wear p, .rules, p {
+    box-sizing: border-box;
+    border: 0px solid #f8e109;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+}
+.images {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+}
+footer {
+    background-color: #aaaaa0;
+    padding: 25px 100px;
+    margin-top: 50px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    margin-top: 100px;
+}
+footer a {
+    color: #f8e109;
+}
+h4 {
+    font-size: 1em;
+    color: #f8e109;
+    background-color:#aaaaa070;
+}
+.main-image-1 {
+    width: 500px;
+    margin-left: 100px;
+    height: 350px;
+    margin-top: 50px;
+}
+.main-image-2 {
+    width: 500px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+}
