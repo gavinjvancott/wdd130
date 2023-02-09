@@ -75,7 +75,7 @@ h3 {
     grid-template-columns: repeat(3, 450px);
     gap: 2%;
 }
-.basics p, .wear p, .rules, p {
+.basics p, .wear p, .Rules p {
     box-sizing: border-box;
     border: 0px solid #f8e109;
     padding: 5px;
@@ -125,4 +125,8 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
+}
+.foot-logo {
+    height: 200px;
+    width: 200px;
 }

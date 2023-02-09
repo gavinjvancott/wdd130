@@ -31,23 +31,38 @@ header {
     margin-left: 75px;
 }
 .home-title {
-    margin-top: 10px;
+    padding: 100px;
+    margin-top: 50px;
     font-size: 4em;
     font-family: 'Nothing You Could Do', brush script m7, papyrus;
     color:#f8e109 ;
 }
+.pictures {
+    display: grid;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .main-image-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 100px;
     width: 500px;
     height: 350px;
     margin-top: 50px;
     margin-bottom: 100px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .main-image-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
     width: 500px;
     height: 350px;
     margin-left: 100px;
     margin-top: 50px;
     margin-bottom: 100px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 h3 {
     font-size: 2em;
@@ -65,9 +80,10 @@ body {
     text-align: center;
 }
 footer {
+    color: black;
     background-color: #aaaaa0;
-    padding: 25px 100px;
-    margin-top: 50px; 
+    padding: -50px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -76,6 +92,7 @@ footer p {
     margin-top: 100px;
 }
 footer a {
+    margin-top: 95px;
     color: #f8e109;
 }
 .foot-logo {
@@ -86,4 +103,46 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
+}
+.indoor, .beach {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #f8e109;
+    background-color: #aaaaa0;
+}
+.indoor:hover, .beach:hover {
+    color: #f8e109;
+    background-color: white;
+}
+.similarities p, .Differences p {
+    box-sizing: border-box;
+    border: 0px solid #f8e109;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+}
+.beginning {
+    padding: 50px;
+}
+.beginning p {
+    padding: 25px;
+    border-color: solid #f8e109;
+}
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+.indoor {
+    font-size: 1.5em;
+    grid-column: 1/2;
+}
+.beach {
+    font-size: 1.5em;
+    grid-column: 2/3;
 }
