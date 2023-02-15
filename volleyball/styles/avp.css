@@ -83,7 +83,7 @@ body {
     justify-content: center;
     justify-items: center;
     margin-left: 450px;
-    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .history {
     grid-row: 3/4;
@@ -116,5 +116,5 @@ footer a {
 h3 {
     font-family: 'Nothing You Could Do', brush script m7, papyrus;
     color:#f8e109 ; 
-    font-size: 1.3em;
+    font-size: 2em;
 }
