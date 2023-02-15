@@ -82,7 +82,6 @@ body {
 footer {
     color: black;
     background-color: #aaaaa0;
-    padding: -50px;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -131,7 +130,6 @@ footer a {
 }
 .beginning p {
     padding: 25px;
-    border-color: solid #f8e109;
 }
 .links {
     display: grid;

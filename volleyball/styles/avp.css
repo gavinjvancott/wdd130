@@ -92,7 +92,6 @@ body {
 footer {
     color: black;
     background-color: #aaaaa0;
-    padding: -50px;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
