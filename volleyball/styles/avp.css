@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Roboto:wght@300&display=swap');
+nav a:hover {
+    color: #8cb4b3;
+    background-color: #f8e109;
+}
+nav a {
+    font-size: 1.5em;
+    padding: 50px;
+    margin: auto;
+    text-decoration: none; 
+    color:#f8e109 ;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #aaaaa0d5 ;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+}
+.logo {
+    height: 200px;
+    width: 200px;
+    margin-left: 75px;
+}
+#hero-img {
+    width: 100%;
+    margin-top: -120px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.home-title {
+    margin-top: 10px;
+    font-size: 4em;
+    font-family: 'Nothing You Could Do', brush script m7, papyrus;
+    color:#f8e109 ;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Roboto, Oxygen, sans-serif;
+    background-color: #8cb4b3;
+    text-align: center;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 2%;
+}
+.avp-knowledge p, .where p, .participate p {
+    box-sizing: border-box;
+    border: 0px solid #f8e109;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+}
+.image2 {
+    grid-row: 2/3;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 450px;
+    padding: 25px;
+}
+.history {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    
+}
+footer {
+    color: black;
+    background-color: #aaaaa0;
+    padding: -50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    margin-top: 100px;
+}
+footer a {
+    margin-top: 95px;
+    color: #f8e109;
+}
+.foot-logo {
+    height: 200px;
+    width: 200px;
+}
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+}
+h3 {
+    font-family: 'Nothing You Could Do', brush script m7, papyrus;
+    color:#f8e109 ; 
+    font-size: 1.3em;
+}
